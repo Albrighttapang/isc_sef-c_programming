@@ -1,0 +1,37 @@
+1 PALINDROME CHECKER
+User enters a string. The string length is calculated. The string characters are compared from start to end and comparison stops if any mismatch is found. If there is any mismatch, the string is not a palindrome. If there isn't any mismatch, the string is a palindrome
+
+2 FIBONACCI WITH A TWIST
+We have a function that calculates the next element in the fibonacci sequence. The fibonacci sequence is displayed based on the number of elements entered by the user.
+
+3 REVERSED ARRAY
+The program prompts the user to enter array size, then array elements.
+Note that the elements are entered via a for loop with and incrementing counter variable.
+The elements are then displayed via another for loop with decrementing counter variable.
+Thus, the array displayed is reversed.
+
+4 FACTORIAL
+A function is used to calculate the factorial of a number.
+If the entered number is less than 0, we have an "UNDEFINED" message
+0 is the base case, where factorial is 1. We use the formula n*factorial(n-1) repeatedly to find the factorial of a number n, until we get to base case.
+
+
+5 PATTERN PRINTING
+We have two counter variables, i and j. A for loop is set for i to increment from 1 up to the number of rows, another for loop is nested in the previous for j to increment from 1 up to the number of rows entered. For these loops, a star is printed for each transversal after which we move to a new line
+
+6
+
+7
+
+7
+
+9 MESSING WITH ARRAYS AGAIN
+We have a function to swap and another to check if preceding numbers are greater than the previous. Thus, two adjacent numbers are swapped if the preceding it less than the previous.
+
+10 REVERSE A STRING
+We have a pointer pointing to the first element and another to the last. The pointers move toward each other, swapping their elements.
+
+11 SIMPLE CALCULATOR
+The user enters desired operation, followed by two numbers. For any entered operation, the operation is carried out on the two numbers, with the help of switch statements.
+An error message is printed out for an invalid operation entered.
+
