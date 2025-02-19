@@ -1,10 +1,14 @@
 #include<stdio.h>
 int main(){
 int n;
-printf("Please enter number of numbers\n"){
+printf("Enter a 3 digit number");
 scanf("%d",&n);
-int Arr[n];
-for(int i=0;i<n;i++){
-printf("Please enter digit;\n");
-scanf("%d",&Arr[i]);}
-for
+int a=n%10;
+int b=(n/10)%10;
+int c=((n/10)/10)%10;
+if((a*a*a)+(b*b*b)+(c*c*c)==n){
+printf("Your number is an armstrong number");}
+else{
+printf("Your number is not an armstrong number");
+}
+return 0;}
